@@ -12,7 +12,6 @@ async function init(){
 function save(){localStorage.setItem('imagina2bit_data',JSON.stringify(data));}
 function renderAll(){renderEvents();renderCenters();renderSchools();renderIndicators();renderNews();renderDocuments();renderCalendar();$('#year').textContent=new Date().getFullYear();renderMatrix();}
 function bindGlobal(){
- $('#menuBtn').onclick=()=>$('#mobileNav').classList.toggle('show');
  $('#eventSearch').oninput=e=>{search=e.target.value.toLowerCase();renderTimeline()};
  $('#timelineTab').onclick=()=>{showView('timeline')}; $('#calendarTab').onclick=()=>{showView('calendar');renderCalendar()};
  $$('.modal-tabs button').forEach(b=>b.onclick=()=>{currentTab=b.dataset.tab;loadEditor()});
