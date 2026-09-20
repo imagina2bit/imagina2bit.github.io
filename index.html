@@ -1,8 +1,55 @@
-<html>
-	<head>
-		<title>Test page</title>
-	</head>
-	<body>
-		<h1>Testing 3,2,1...</h1>
-	</body>
-</html>
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="iMagina2:Bit — programación, robótica y pensamiento computacional en Sierra Mágina.">
+<title>Proyecto iMagina2:Bit</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/styles.css">
+<link rel="icon" type="image/png" href="assets/favicon/favicon.png">
+</head>
+<body>
+<a class="skip" href="#presentacion">Saltar al contenido principal</a>
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="brand" href="#presentacion" aria-label="iMagina2:Bit inicio"><span>iMagina<span class="pink">2</span><span class="amber">:</span><span class="teal">Bit</span></span><small>Sierra Mágina</small></a>
+    <nav class="desktop-nav" aria-label="Navegación principal">
+      <a href="#presentacion">Presentación</a><a href="#calendario">Actividades</a><a href="#centros">Puntos Vuela</a><a href="#colegios">Colegios</a><a href="#indicadores">Novedades</a><a href="#documentos">Documentos</a>
+    </nav>
+    <div class="header-actions"><a class="btn btn-teal small" href="#contacto">✉ Contactar</a><button class="menu-btn" id="menuBtn" aria-label="Abrir menú">☰</button></div>
+  </div>
+  <div class="mobile-nav" id="mobileNav"><a href="#presentacion">Presentación</a><a href="#calendario">Actividades</a><a href="#centros">Puntos Vuela</a><a href="#colegios">Colegios</a><a href="#indicadores">Novedades</a><a href="#documentos">Documentos</a><button class="btn btn-purple" id="jsonMobile">Ver y editar JSON</button><a class="btn btn-teal" href="#contacto">Formulario de contacto</a></div>
+</header>
+<main>
+<section id="presentacion" class="hero">
+  <div class="orb orb-a"></div><div class="orb orb-b"></div><div class="orb orb-c"></div>
+  <div class="container hero-grid">
+    <div>
+      <span class="eyebrow rose">✦ Proyecto Educativo Comarcal · Sierra Mágina</span>
+      <h1>El futuro de la robótica nace en <span class="teal">Sierra Mágina</span> con <span class="pink">iMagina2</span><span class="amber">:Bit</span></h1>
+      <p class="lead">¡Aprender jugando, crear programando! Una iniciativa que une a los <strong>Puntos Vuela de Jódar, Larva y Jimena</strong> con los <strong>colegios de la comarca</strong> para acercar la programación, los robots y la ciencia divertida a niños y niñas.</p>
+      <div class="actions"><a class="btn btn-teal" href="#calendario">◈ Ver actividades y talleres</a><a class="btn btn-white" href="#centros">● Conocer centros y AILs</a></div>
+      <div class="metrics"><div><b class="teal">100%</b><span>Gratuito y abierto</span></div><div><b class="pink">7</b><span>Centros unidos</span></div><div><b class="amber">STEAM</b><span>Pensamiento crítico</span></div></div>
+    </div>
+    <div class="bit-card">
+      <div class="bit-head"><span><i></i><i></i><i></i> micro:bit v2 · iMagina</span><em>¡Toca los LEDs!</em></div>
+      <div class="matrix-wrap"><div class="matrix" id="matrix"></div><p>Matriz interactiva 5×5 programable con bloques MakeCode</p></div>
+      <div class="preset-title">Iconos rápidos para probar:</div>
+      <div class="presets"><button data-preset="heart">❤️ Corazón</button><button data-preset="smile">😊 Sonrisa</button><button data-preset="robot">🤖 Robot</button><button data-preset="bit">◈ Bit</button></div>
+      <div class="pins"><span>PIN 0</span><span>PIN 1</span><span>PIN 2</span><span>3V</span><span>GND</span></div>
+    </div>
+  </div>
+</section>
+<section id="calendario" class="section alt"><div class="container"><div class="section-head"><div><span class="eyebrow teal-bg">▣ Calendario</span><h2>Actividades y retos</h2><p>Consulta la programación, filtra por centro y busca actividades.</p></div></div><div class="toolbar"><div id="locationFilters" class="chips"></div><input id="eventSearch" type="search" placeholder="Buscar actividad…"></div><div class="view-tabs"><button class="active" id="timelineTab">Línea temporal</button><button id="calendarTab">Calendario</button></div><div id="timelineView"></div><div id="calendarView" class="hidden calendar-layout"></div></div></section>
+<section id="centros" class="section"><div class="container"><div class="section-head centered"><div><span class="eyebrow amber-bg">● Puntos Vuela</span><h2>Centros y Agentes de Innovación Local</h2><p>Una red comarcal que comparte conocimiento, recursos y experiencias.</p></div></div><div id="centerTabs" class="center-tabs"></div><div id="centerContent"></div></div></section>
+<section id="colegios" class="section alt"><div class="container"><div class="section-head centered"><div><span class="eyebrow green-bg">▣ Colegios</span><h2>Centros educativos implicados</h2><p>El alumnado aprende creando y conecta sus proyectos con otros centros.</p></div></div><div id="schoolTabs" class="school-tabs"></div><div id="schoolContent"></div></div></section>
+<section id="indicadores" class="section"><div class="container"><div class="section-head"><div><span class="eyebrow purple-bg">◆ Indicadores</span><h2>El proyecto en cifras</h2><p>Datos actualizables desde el gestor JSON.</p></div></div><div id="indicatorsGrid" class="indicator-grid"></div><div class="subhead"><div><span class="eyebrow rose-bg">● Actualidad</span><h3>Últimas novedades</h3></div></div><div id="newsList" class="news-list"></div></div></section>
+<section id="documentos" class="section alt"><div class="container"><div class="section-head"><div><span class="eyebrow sky-bg">▤ Documentos</span><h2>Documentos públicos y guías</h2><p>Materiales para familias, alumnado, profesorado y AILs.</p></div></div><div id="documentsList" class="documents-list"></div></div></section>
+<section id="contacto" class="section contact"><div class="container contact-grid"><div><span class="eyebrow rose-bg">✉ Contacto</span><h2>¿Tienes una idea, una pregunta o un reto?</h2><p>Escríbenos y nos pondremos en contacto contigo. El formulario abre tu cliente de correo con el mensaje preparado.</p><div class="contact-box"><b>Puntos Vuela de Jódar, Larva y Jimena</b><a href="mailto:imagina2bit@puntosvuela.es">imagina2bit@puntosvuela.es</a><a href="tel:+34687050774">+34 687 05 07 74</a></div></div><form id="contactForm" class="contact-form"><label>Nombre<input name="nombre" required></label><label>Asunto<input name="asunto" required></label><label>Mensaje<textarea name="mensaje" rows="7" required></textarea></label><button class="btn btn-teal" type="submit">Enviar mensaje →</button></form></div></section>
+</main>
+<footer class="footer"><div class="container footer-grid"><div><div class="footer-brand">iMagina<span class="pink">2</span><span class="amber">:</span><span class="teal">Bit</span></div><p>Iniciativa comarcal para acercar la programación, la robótica con BBC micro:bit y el pensamiento computacional a la infancia y juventud de Sierra Mágina.</p><small>Hecho con ♥ para las niñas y niños de la comarca.</small></div><div><h4>Secciones</h4><a href="#presentacion">Presentación</a><a href="#calendario">Actividades</a><a href="#centros">Puntos Vuela</a><a href="#colegios">Colegios</a><a href="#indicadores">Novedades</a><a href="#documentos">Documentos</a></div><div><h4>Centros en red</h4><p>Punto Vuela de Jódar</p><p>Punto Vuela de Larva</p><p>Punto Vuela de Jimena</p><p>4 Colegios CEIP de la comarca de Sierra Mágina</p></div><div><h4>Coordinación</h4><p>Punto Vuela de Jódar<br>C. Joaquín Galván, 1<br>23500 Jódar, Jaén</p><a href="mailto:imagina2bit@puntosvuela.es">imagina2bit@puntosvuela.es</a><a href="tel:+34687050774">+34 687 05 07 74</a></div></div><div class="container footer-bottom">© <span id="year"></span> Proyecto iMagina2:Bit · Sierra Mágina (Jaén) - Web Diseñada por Sergio Cubero León (xcloady)</div></footer>
+<script src="js/app.js"></script>
+</body></html>

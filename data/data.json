@@ -1,0 +1,342 @@
+{
+  "puntosVuela": [
+    {
+      "id": "pv-jodar",
+      "nombre": "Punto Vuela de Jódar",
+      "direccion": "C. Joaquín Galván, 1",
+      "codigoPostal": "23500",
+      "municipio": "Jódar, Jaén",
+      "fotoCentro": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=80",
+      "mapQuery": "Punto Vuela Jodar, Calle Joaquin Galvan, 1, 23500 Jodar, Jaen",
+      "telefono": "+34 687 05 07 74",
+      "email": "jodar.pv@puntosvuela.es",
+      "horario": "Lunes a Viernes: 09:00 - 14:00 y Lunes 16:30 - 19:30",
+      "ails": [
+        {
+          "id": "ail-ana-maria",
+          "nombre": "Ana María Cano Marín",
+          "cargo": "Agente de Innovación Local (AIL)",
+          "foto": "assets/profile_images/camaa.jpg",
+          "telefono": "+34 687 05 07 74",
+          "email": "jodar.pv@puntosvuela.es",
+          "centro": "Punto Vuela de Jódar",
+          "redesSociales": {
+            "facebook": "https://facebook.com",
+            "linkedin": "https://linkedin.com",
+            "twitter": "https://x.com",
+            "instagram": "https://instagram.com"
+          }
+        },
+        {
+          "id": "ail-sergio",
+          "nombre": "Sergio Cubero León",
+          "cargo": "Agente de Innovación Local (AIL)",
+          "foto": "assets/profile_images/xcloady.jpg",
+          "telefono": "+34 687 05 07 74",
+          "email": "scleon@jodar.es",
+          "centro": "Punto Vuela de Jódar",
+          "redesSociales": {
+            "facebook": "https://facebook.com",
+            "linkedin": "https://linkedin.com",
+            "twitter": "https://x.com",
+            "instagram": "https://instagram.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pv-larva",
+      "nombre": "Punto Vuela de Larva",
+      "direccion": "C. Enrique del Castillo, 12",
+      "codigoPostal": "23591",
+      "municipio": "Larva, Jaén",
+      "fotoCentro": "https://images.unsplash.com/photo-1581092918056-0c4c3acd3789?auto=format&fit=crop&w=1000&q=80",
+      "mapQuery": "Calle Enrique del Castillo, 12, 23591 Larva, Jaen",
+      "telefono": "+34 953 78 70 02",
+      "email": "larva.pv@puntosvuela.es",
+      "horario": "Lunes a Viernes: 10:00 - 14:00 y 17:00 - 20:00",
+      "ails": [
+        {
+          "id": "ail-maria-mar",
+          "nombre": "Maria Del Mar Pérez Viñeglas",
+          "cargo": "Agente de Innovación Local (AIL)",
+          "foto": "https://images.unsplash.com/photo-1580894732444-8ecded7900cd?auto=format&fit=crop&w=600&q=80",
+          "telefono": "+34 953 78 70 02",
+          "email": "larva.pv@puntosvuela.es",
+          "centro": "Punto Vuela de Larva",
+          "redesSociales": {
+            "facebook": "https://facebook.com",
+            "linkedin": "https://linkedin.com",
+            "twitter": "https://x.com",
+            "instagram": "https://instagram.com"
+          }
+        }
+      ]
+    },
+    {
+      "id": "pv-jimena",
+      "nombre": "Punto Vuela de Jimena",
+      "direccion": "C. Cervantes, 77",
+      "codigoPostal": "23530",
+      "municipio": "Jimena, Jaén",
+      "fotoCentro": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1000&q=80",
+      "mapQuery": "Calle Cervantes, 77, 23530 Jimena, Jaen",
+      "telefono": "+34 953 35 71 88",
+      "email": "jimena.pv@puntosvuela.es",
+      "horario": "Lunes a Viernes: 09:30 - 13:30 y 16:30 - 19:30",
+      "ails": [
+        {
+          "id": "ail-manuela",
+          "nombre": "Manuela Aguirre Ruiz",
+          "cargo": "Agente de Innovación Local (AIL)",
+          "foto": "https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&w=600&q=80",
+          "telefono": "+34 953 35 71 88",
+          "email": "jimena.pv@puntosvuela.es",
+          "centro": "Punto Vuela de Jimena",
+          "redesSociales": {
+            "facebook": "https://facebook.com",
+            "linkedin": "https://linkedin.com",
+            "twitter": "https://x.com",
+            "instagram": "https://instagram.com"
+          }
+        }
+      ]
+    }
+  ],
+  "schools": [
+    {
+      "id": "ceip-dr-fleming",
+      "nombre": "CEIP Doctor Fleming",
+      "direccion": "Avda. San Sebastián S/N",
+      "municipio": "23500 Jódar, Jaén",
+      "fotoCentro": "assets/centros/doctorfleming.jpg",
+      "mapQuery": "CEIP Doctor Fleming, Avenida San Sebastian S/N, Jodar, Jaen",
+      "descripcion": "Centro de educación infantil y primaria en Jódar pionero en talleres maker y pensamiento computacional.",
+      "etapaEducativa": "Educación Infantil y Primaria"
+    },
+    {
+      "id": "ceip-arroquia-martinez",
+      "nombre": "CEIP Maestros Arroquia Martínez",
+      "direccion": "C. Sanabria, 1",
+      "municipio": "23500 Jódar, Jaén",
+      "fotoCentro": "assets/centros/arroquiamartinez.jpg",
+      "mapQuery": "CEIP Maestros Arroquia Martinez, Calle Sanabria 1, Jódar, Jaén",
+      "descripcion": "Comunidad educativa activa en proyectos científicos, robótica educativa y experimentación tecnológica escolar.",
+      "etapaEducativa": "Educación Infantil y Primaria"
+    },
+    {
+      "id": "ceip-dolores-larva",
+      "nombre": "CEIP Nuestra Señora de los Dolores",
+      "direccion": "C. Gaspar Saro S/N",
+      "municipio": "23591 Larva, Jaén",
+      "fotoCentro": "assets/centros/ntrasenoradolores.jpg",
+      "mapQuery": "CEIP Nuestra Senora de los Dolores, Calle Gaspar Saro, Larva, Jaen",
+      "descripcion": "Colegio rural dinamizador del aprendizaje por proyectos, con aulas STEAM conectadas al entorno natural.",
+      "etapaEducativa": "Educación Infantil y Primaria"
+    },
+    {
+      "id": "ceip-remedios-jimena",
+      "nombre": "CEIP Nuestra Señora de los Remedios",
+      "direccion": "C. San Sebastian, 10",
+      "municipio": "23530 Jimena, Jaén",
+      "fotoCentro": "assets/centros/ntrasenoraremedios.jpg",
+      "mapQuery": "CEIP Nuestra Senora de los Remedios, Calle San Sebastian 10, Jimena, Jaen",
+      "descripcion": "Espacio de aprendizaje inclusivo y creativo donde los alumnos diseñan sus primeros inventos y prototipos.",
+      "etapaEducativa": "Educación Infantil y Primaria"
+    }
+  ],
+  "events": [
+    {
+      "id": "evt-1",
+      "fecha": "2026-07-14",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Autoformación 1: Block2Bit. Programación en bloques usando Scratch y Micro:bit.",
+      "lugar": "Punto Vuela de Jódar",
+      "categoria": "Autoformación",
+      "descripcion": "Primer contacto con la placa micro:bit, la matriz de LEDs 5x5, botones y sensores básicos mediante bloques. Martes 14 de Julio del 2026.",
+      "audiencia": "AILs del Punto Vuela de Jimena, Larva y Jódar"
+    },
+    {
+      "id": "evt-2",
+      "fecha": "2026-08-11",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Autoformación 2: Walk2:bit Robótica por control remoto con Micro:bit.",
+      "lugar": "Punto Vuela de Jódar",
+      "categoria": "Autoformación",
+      "descripcion": "Nuevo contacto con la placa micro:bit, montaje de robot y primera lógica interconectada. Martes 11 de Agosto del 2026.",
+      "audiencia": "AILs del Punto Vuela de Jimena, Larva y Jódar"
+    },
+    {
+      "id": "evt-3",
+      "fecha": "2026-08-17",
+      "horaInicio": "10:30",
+      "horaFin": "14:30",
+      "evento": "Reunión Coordinación 1: Estado inicial del Proyecto.",
+      "lugar": "Punto Vuela de Jódar",
+      "categoria": "Reunión",
+      "descripcion": "Reunión de coordinación con los puntos vuela implicados. Lunes 17 de Agosto del 2026.",
+      "audiencia": "AILs del Punto Vuela de Jimena, Larva y Jódar"
+    },
+    {
+      "id": "evt-4",
+      "fecha": "2026-09-23",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Reunión Coordinación 2: Preparativos del Primer Taller.",
+      "lugar": "Punto Vuela de Jódar",
+      "categoria": "Reunión",
+      "descripcion": "Reunión de Coordinación previa a la primera impartición del taller. Miércoles 23 de Septiembre del 2026.",
+      "audiencia": "AILs del Punto Vuela de Jimena, Larva y Jódar"
+    },
+    {
+      "id": "evt-5",
+      "fecha": "2026-09-29",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Taller Formativo 1 iMagina2:Bit: Larva",
+      "lugar": "CEIP Nuestra Señora de los Dolores (Larva)",
+      "categoria": "Formación",
+      "descripcion": "Impartición del primer taller formativo al alumnado del CEIP Nuestra Señora de los Dolores (Larva). Martes 29 de Septiembre del 2026.",
+      "audiencia": "Primaria (3º a 6º)"
+    },
+    {
+      "id": "evt-6",
+      "fecha": "2026-10-06",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Taller Formativo 1 iMagina2:Bit: Jimena",
+      "lugar": "CEIP Nuestra Señora de los Remedios (Jimena)",
+      "categoria": "Formación",
+      "descripcion": "Impartición del primer taller formativo al alumnado del CEIP Nuestra Señora de los Remedios (Jimena). Martes 06 de Octubre del 2026.",
+      "audiencia": "Primaria (3º a 6º)"
+    },
+    {
+      "id": "evt-7",
+      "fecha": "2026-10-13",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Taller Formativo 1 iMagina2:Bit: Jódar",
+      "lugar": "CEIP Doctor Fleming (Jódar)",
+      "categoria": "Formación",
+      "descripcion": "Impartición del primer taller formativo al alumnado del CEIP Doctor Fleming (Jódar). Martes 13 de Octubre del 2026.",
+      "audiencia": "Primaria (3º)"
+    },
+    {
+      "id": "evt-8",
+      "fecha": "2026-10-20",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Reunión Coordinación 3: Preparativos del Segundo Taller.",
+      "lugar": "Punto Vuela de Jódar",
+      "categoria": "Reunión",
+      "descripcion": "Reunión de Coordinación previa a la segunda impartición del taller. Martes 20 de Octubre del 2026.",
+      "audiencia": "AILs del Punto Vuela de Jimena, Larva y Jódar"
+    },
+    {
+      "id": "evt-9",
+      "fecha": "2026-10-27",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Taller Formativo 2 iMagina2:Bit: Larva",
+      "lugar": "CEIP Nuestra Señora de los Dolores (Larva)",
+      "categoria": "Formación",
+      "descripcion": "Impartición del segundo taller formativo al alumnado del CEIP Nuestra Señora de los Dolores (Larva). Martes 27 de Octubre del 2026.",
+      "audiencia": "Primaria (3º a 6º)"
+    },
+    {
+      "id": "evt-10",
+      "fecha": "2026-11-03",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Taller Formativo 2 iMagina2:Bit: Jimena",
+      "lugar": "CEIP Nuestra Señora de los Remedios (Jimena)",
+      "categoria": "Formación",
+      "descripcion": "Impartición del segundo taller formativo al alumnado del CEIP Nuestra Señora de los Remedios (Jimena). Martes 03 de Noviembre del 2026.",
+      "audiencia": "Primaria (3º a 6º)"
+    },
+    {
+      "id": "evt-11",
+      "fecha": "2026-11-10",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Taller Formativo 2 iMagina2:Bit: Jódar",
+      "lugar": "CEIP Doctor Fleming (Jódar)",
+      "categoria": "Formación",
+      "descripcion": "Impartición del segundo taller formativo al alumnado del CEIP Doctor Fleming (Jódar). Martes 10 de Noviembre del 2026.",
+      "audiencia": "Primaria (3º)"
+    },
+    {
+      "id": "evt-12",
+      "fecha": "2026-11-17",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Reunión Coordinación 4: Preparativos del Tercer Taller.",
+      "lugar": "Punto Vuela de Jódar",
+      "categoria": "Reunión",
+      "descripcion": "Reunión de Coordinación previa a la tercera impartición del taller. Martes 17 de Noviembre del 2026.",
+      "audiencia": "AILs del Punto Vuela de Jimena, Larva y Jódar"
+    },
+    {
+      "id": "evt-13",
+      "fecha": "2026-11-24",
+      "horaInicio": "10:00",
+      "horaFin": "14:00",
+      "evento": "Taller Formativo 3 iMagina2:Bit: Puntos Vuela de Sierra Mágina",
+      "lugar": "¡AÚN POR DETERMINAR!",
+      "categoria": "Autoformación",
+      "descripcion": "Impartición del tercer taller formativo off-topic a los AILs de la comarca de Sierra Mágina. Martes 24 de Noviembre del 2026.",
+      "audiencia": "AILs del Punto Vuela de Sierra Mágina"
+    }
+  ],
+  "indicators": [
+    {
+      "id": "ind-1",
+      "etiqueta": "Estudiantes Participantes",
+      "valor": "120+",
+      "descripcion": "Niños y niñas de Educación Primaria formándose en pensamiento computacional.",
+      "icono": "Users",
+      "color": "emerald"
+    },
+    {
+      "id": "ind-2",
+      "etiqueta": "Centros y Colegios Conectados",
+      "valor": "7",
+      "descripcion": "3 Puntos Vuela y 4 CEIP de la comarca de Sierra Mágina colaborando en red.",
+      "icono": "School",
+      "color": "amber"
+    },
+    {
+      "id": "ind-3",
+      "etiqueta": "Talleres y Sesiones Realizadas",
+      "valor": "36",
+      "descripcion": "Jornadas prácticas de programación por bloques, robótica móvil y electrónica.",
+      "icono": "Cpu",
+      "color": "sky"
+    },
+    {
+      "id": "ind-4",
+      "etiqueta": "Kits micro:bit & Robots en Uso",
+      "valor": "16",
+      "descripcion": "Placas micro:bit v2, sensores de entorno y chasis robóticos distribuidos.",
+      "icono": "Bot",
+      "color": "purple"
+    }
+  ],
+  "entries": [
+    
+  ],
+  "documents": [
+    {
+      "id": "doc-1",
+      "titulo": "Rúbrica de proyecto iMagina2:Bit",
+      "formato": "DOCS",
+      "tamanio": "3.4 MB",
+      "fecha": "Septiembre 2026",
+      "accion": "editar",
+      "url": "https://docs.google.com/document/d/1q_mOyx5gRUx5ZzMm6FopbWqUu2QfYqhDl1VQLF6ATa0/edit?usp=sharing",
+      "descripcion": "Rúbrica de proyecto iMagina2:Bit. Documento que establece las bases del proyecto, objetivos e indicadores de seguimiento."
+    }
+  ]
+}
