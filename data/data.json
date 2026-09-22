@@ -310,7 +310,7 @@
     {
       "id": "ind-3",
       "etiqueta": "Talleres y Sesiones Realizadas",
-      "valor": "36",
+      "valor": "9",
       "descripcion": "Jornadas prácticas de programación por bloques, robótica móvil y electrónica.",
       "icono": "Cpu",
       "color": "sky"
@@ -318,7 +318,7 @@
     {
       "id": "ind-4",
       "etiqueta": "Kits micro:bit & Robots en Uso",
-      "valor": "16",
+      "valor": "12",
       "descripcion": "Placas micro:bit v2, sensores de entorno y chasis robóticos distribuidos.",
       "icono": "Bot",
       "color": "purple"
