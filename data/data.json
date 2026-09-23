@@ -207,7 +207,7 @@
       "horaInicio": "10:00",
       "horaFin": "14:00",
       "evento": "Taller Formativo 1 iMagina2:Bit: Jimena",
-      "lugar": "CEIP Nuestra Señora de los Remedios (Jimena)",
+      "lugar": "Punto Vuela de Jimena",
       "categoria": "Formación",
       "descripcion": "Impartición del primer taller formativo al alumnado del CEIP Nuestra Señora de los Remedios (Jimena). Martes 06 de Octubre del 2026.",
       "audiencia": "Primaria (3º a 6º)"
@@ -251,7 +251,7 @@
       "horaInicio": "10:00",
       "horaFin": "14:00",
       "evento": "Taller Formativo 2 iMagina2:Bit: Jimena",
-      "lugar": "CEIP Nuestra Señora de los Remedios (Jimena)",
+      "lugar": "Punto Vuela de Jimena",
       "categoria": "Formación",
       "descripcion": "Impartición del segundo taller formativo al alumnado del CEIP Nuestra Señora de los Remedios (Jimena). Martes 03 de Noviembre del 2026.",
       "audiencia": "Primaria (3º a 6º)"
@@ -325,18 +325,36 @@
     }
   ],
   "entries": [
-    
+    {
+      "id": "not-1",
+      "titulo": "Lanzamiento del proyecto iMagina2:Bit en los centros de Sierra Mágina",
+      "fecha": "23 de Septiembre de 2026",
+      "descripcion": "Arranque oficial de la alianza entre los Puntos Vuela de Jódar, Larva y Jimena con los cuatro colegios de la comarca para democratizar la tecnología y la robótica. Con la publicación del díptico ¡Da comienzo el pistoletazo de salida de iMagina2:Bit!",
+      "foto": "assets/entries/not-1.jpg",
+      "categoria": "Institucional",
+      "autor": "Equipo iMagina2:Bit"
+    }
   ],
   "documents": [
     {
       "id": "doc-1",
       "titulo": "Rúbrica de proyecto iMagina2:Bit",
       "formato": "DOCS",
-      "tamanio": "3.4 MB",
-      "fecha": "Septiembre 2026",
-      "accion": "editar",
+      "tamanio": "2.7 MB",
+      "fecha": "27 de Agosto 2026",
+      "accion": "ver",
       "url": "https://docs.google.com/document/d/1q_mOyx5gRUx5ZzMm6FopbWqUu2QfYqhDl1VQLF6ATa0/edit?usp=sharing",
       "descripcion": "Rúbrica de proyecto iMagina2:Bit. Documento que establece las bases del proyecto, objetivos e indicadores de seguimiento."
+    },
+    {
+      "id": "doc-2",
+      "titulo": "Díptico Informativo del proyecto iMagina2:Bit",
+      "formato": "PDF",
+      "tamanio": "1.7 MB",
+      "fecha": "23 de Septiembre 2026",
+      "accion": "ver",
+      "url": "https://drive.google.com/file/d/1wKXbXxrF83J5oRFgNwPZAeHvCZOaxxc_/view?usp=sharing",
+      "descripcion": "Díptico divulgativo que detalla los objetivos y el alcance del proyecto educativo comarcal iMagina2:bit."
     }
   ]
 }
