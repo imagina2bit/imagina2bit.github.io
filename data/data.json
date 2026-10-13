@@ -10,7 +10,7 @@
       "mapQuery": "Punto Vuela Jodar, Calle Joaquin Galvan, 1, 23500 Jodar, Jaen",
       "telefono": "+34 687 05 07 74",
       "email": "jodar.pv@puntosvuela.es",
-      "horario": "Lunes: 09:00 - 15:00 y 16:30 - 20:00. Martes, Miércoles y Viernes: 09:00 - 15:30. Jueves: 09:00 - 15:00",
+      "horario": "Lunes: 09:00 - 15:00 y 16:00 - 19:30. Martes, Miércoles y Viernes: 09:00 - 15:30. Jueves: 09:00 - 15:00",
       "ails": [
         {
           "id": "ail-ana-maria",
@@ -217,7 +217,7 @@
       "fecha": "2026-10-13",
       "horaInicio": "10:00",
       "horaFin": "14:00",
-      "evento": "Taller Formativo 1 iMagina2:Bit: Jódar",
+      "evento": "Taller Formativo 1 iMagina2:Bit: Jódar (Fleming)",
       "lugar": "CEIP Doctor Fleming (Jódar)",
       "categoria": "Formación",
       "descripcion": "Impartición del primer taller formativo al alumnado del CEIP Doctor Fleming (Jódar). Martes 13 de Octubre del 2026.",
@@ -225,17 +225,28 @@
     },
     {
       "id": "evt-8",
-      "fecha": "2026-10-20",
+      "fecha": "2026-10-19",
+      "horaInicio": "16:00",
+      "horaFin": "18:00",
+      "evento": "Taller Formativo 1 iMagina2:Bit: Jódar (Arroquia)",
+      "lugar": "CEIP Maestros Arroquia Martinez (Jódar)",
+      "categoria": "Formación",
+      "descripcion": "Impartición del primer taller formativo al alumnado del CEIP Maestros Arroquia Martinez (Jódar). Lunes 19 de Octubre del 2026.",
+      "audiencia": "Primaria (1º a 5º)"
+    },
+    {
+      "id": "evt-9",
+      "fecha": "2026-10-19",
       "horaInicio": "10:00",
       "horaFin": "14:00",
       "evento": "Reunión Coordinación 3: Preparativos del Segundo Taller.",
       "lugar": "Punto Vuela de Jódar",
       "categoria": "Reunión",
-      "descripcion": "Reunión de Coordinación previa a la segunda impartición del taller. Martes 20 de Octubre del 2026.",
+      "descripcion": "Reunión de Coordinación previa a la segunda impartición del taller. Lunes 19 de Octubre del 2026.",
       "audiencia": "AILs del Punto Vuela de Jimena, Larva y Jódar"
     },
     {
-      "id": "evt-9",
+      "id": "evt-10",
       "fecha": "2026-10-27",
       "horaInicio": "10:00",
       "horaFin": "14:00",
@@ -246,41 +257,52 @@
       "audiencia": "Primaria (3º a 6º)"
     },
     {
-      "id": "evt-10",
-      "fecha": "2026-11-03",
+      "id": "evt-11",
+      "fecha": "2026-11-12",
       "horaInicio": "10:00",
       "horaFin": "14:00",
       "evento": "Taller Formativo 2 iMagina2:Bit: Jimena",
       "lugar": "Punto Vuela de Jimena",
       "categoria": "Formación",
-      "descripcion": "Impartición del segundo taller formativo al alumnado del CEIP Nuestra Señora de los Remedios (Jimena). Martes 03 de Noviembre del 2026.",
+      "descripcion": "Impartición del segundo taller formativo al alumnado del CEIP Nuestra Señora de los Remedios (Jimena). Jueves 12 de Noviembre del 2026.",
       "audiencia": "Primaria (3º a 6º)"
     },
     {
-      "id": "evt-11",
-      "fecha": "2026-11-10",
+      "id": "evt-12",
+      "fecha": "2026-11-16",
       "horaInicio": "10:00",
       "horaFin": "14:00",
-      "evento": "Taller Formativo 2 iMagina2:Bit: Jódar",
+      "evento": "Taller Formativo 2 iMagina2:Bit: Jódar (Fleming)" ,
       "lugar": "CEIP Doctor Fleming (Jódar)",
       "categoria": "Formación",
-      "descripcion": "Impartición del segundo taller formativo al alumnado del CEIP Doctor Fleming (Jódar). Martes 10 de Noviembre del 2026.",
+      "descripcion": "Impartición del segundo taller formativo al alumnado del CEIP Doctor Fleming (Jódar). Lunes 16 de Noviembre del 2026.",
       "audiencia": "Primaria (3º)"
     },
     {
-      "id": "evt-12",
-      "fecha": "2026-11-17",
-      "horaInicio": "10:00",
-      "horaFin": "14:00",
+      "id": "evt-13",
+      "fecha": "2026-11-16",
+      "horaInicio": "16:00",
+      "horaFin": "18:00",
+      "evento": "Taller Formativo 2 iMagina2:Bit: Jódar (Arroquia)" ,
+      "lugar": "CEIP Maestros Arroquia Martinez (Jódar)",
+      "categoria": "Formación",
+      "descripcion": "Impartición del segundo taller formativo al alumnado del CEIP Maestros Arroquia Martinez (Jódar). Lunes 16 de Noviembre del 2026.",
+      "audiencia": "Primaria (1º a 5º)"
+    },
+    {
+      "id": "evt-14",
+      "fecha": "2026-11-16",
+      "horaInicio": "09:00",
+      "horaFin": "10:00",
       "evento": "Reunión Coordinación 4: Preparativos del Tercer Taller.",
       "lugar": "Punto Vuela de Jódar",
       "categoria": "Reunión",
-      "descripcion": "Reunión de Coordinación previa a la tercera impartición del taller. Martes 17 de Noviembre del 2026.",
+      "descripcion": "Reunión de Coordinación previa a la tercera impartición del taller. Lunes 16 de Noviembre del 2026.",
       "audiencia": "AILs del Punto Vuela de Jimena, Larva y Jódar"
     },
     {
-      "id": "evt-13",
-      "fecha": "2026-11-24",
+      "id": "evt-15",
+      "fecha": "2026-11-26",
       "horaInicio": "10:00",
       "horaFin": "14:00",
       "evento": "Taller Formativo 3 iMagina2:Bit: Puntos Vuela de Sierra Mágina",
@@ -349,6 +371,41 @@
       ],
       "categoria": "Actividad en Aula",
       "autor": "CEIP Nuestra Señora de los Dolores"
+    },
+    {
+      "id": "not-3",
+      "titulo": "Jimena custodia el tesoro de Aznaitín y... ¿¡programadores!?",
+      "fecha": "6 de Octubre de 2026",
+      "descripcion": "Continuamos la ruta en los municipios de Sierra Mágina y hoy nos desplazamos hasta el ¡municipio de Jimena!. Los alumnos del CEIP Nuestra Señora de los Remedios sorprenden con sus conocimientos sobre programación!! Parece que... no sólamente guardan el Tesoro de Aznaitín sobre la sierra sino que... ¿¡También programadores!? Sólo hace falta ver el trabajo de programación que se han montado estas jóvenes promesas ⬆️⬆️.",
+      "foto": "assets/entries/not-3.jpg",
+      "fotos": [
+        "assets/entries/not-3.jpg",
+        "assets/entries/not-3-1.jpg",
+        "assets/entries/not-3-2.jpg",
+        "assets/entries/not-3-3.jpg",
+        "assets/entries/not-3-4.jpg"
+      ],
+      "categoria": "Actividad en Aula",
+      "autor": "Punto Vuela de Jimena"
+    },
+    {
+      "id": "not-4",
+      "titulo": "Pensábamos ir despacio pero... ¡en Jódar se pasaron el juego!",
+      "fecha": "13 de Octubre de 2026",
+      "descripcion": "Tenemos que reconocer que al comenzar este proyecto, pensamos hacerlo con alumnos de todas las edades... y para ello, bajar el nivel para adaptar el aprendizaje a cada colectivo pero... ¡Jódar rompió los esquemas!. Comenzamos 'piano' con algo sencillo con Code.org Minecraft Adventurer, y al final... ¡Acabamos haciendo un contador en Micro:Bit! Vamos... una volada mental 😂😂😂",
+      "foto": "assets/entries/not-4.jpg",
+      "fotos": [
+        "assets/entries/not-4.jpg",
+        "assets/entries/not-4-1.jpg",
+        "assets/entries/not-4-2.jpg",
+        "assets/entries/not-4-3.jpg",
+        "assets/entries/not-4-4.jpg",
+        "assets/entries/not-4-5.jpg",
+        "assets/entries/not-4-6.jpg",
+        "assets/entries/not-4-7.jpg"
+      ],
+      "categoria": "Actividad en Aula",
+      "autor": "CEIP Doctor Fleming (Jódar)"
     }
   ],
   "documents": [
