@@ -428,6 +428,16 @@
       "accion": "ver",
       "url": "https://drive.google.com/file/d/1wKXbXxrF83J5oRFgNwPZAeHvCZOaxxc_/view?usp=sharing",
       "descripcion": "Díptico divulgativo que detalla los objetivos y el alcance del proyecto educativo comarcal iMagina2:bit."
+    },
+    {
+      "id": "doc-3",
+      "titulo": "Instrumental para Makey-Makey 1",
+      "formato": "SCRATCH",
+      "tamanio": "n/d",
+      "fecha": "13 de Octubre 2026",
+      "accion": "editar",
+      "url": "https://scratch.mit.edu/projects/1391230662",
+      "descripcion": "Primera parte: Instrumental de ColdPlay para Makey-Makey. Introducción del Coro 1 y 2 (4 melodías). Orden: Izda, Arriba, Derecha, Abajo."
     }
   ]
 }
